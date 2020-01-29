@@ -1,0 +1,78 @@
+.cauldron-img-holder {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 1.5rem;
+}
+.cauldron-img-holder img {
+  width: 16em;
+  z-index: 1;
+}
+
+.ingredient-items {
+  text-align: center;
+  width: 100%;
+  padding-top: 20%;
+}
+.ingredient-items img {
+  max-width: 3.5rem;
+  vertical-align: middle;
+  z-index: 2;
+  margin-right: 0.5rem;
+}
+
+.ingredient-items.slices img {
+  animation: Slicing 3s infinite;
+  animation-direction: initial;
+}
+
+@keyframes Slicing {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(0px, 50px);
+  }
+}
+
+.ingredient-items.mixes img {
+  animation: mixes 2s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes mixes {
+  0% {
+    transform: translate(-50px, 0);
+  }
+  100% {
+    transform: translate(50px, 0);
+  }
+}
+
+.ingredient-items.grinds img {
+  animation: grinds 2s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes grinds {
+  0% {
+    max-width: 3.5rem;
+    transform: translate(0, 0);
+  }
+  100% {
+    max-width: 5rem;
+    transform: translate(0px, 50px);
+  }
+}
+
+.ingredient-items.stirs img {
+  animation: stirs 4s linear infinite;
+}
+@keyframes stirs {
+  from {
+    transform: rotate(0deg) translateX(150px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(150px) rotate(-360deg);
+  }
+}

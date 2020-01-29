@@ -1,0 +1,76 @@
+{
+  "processes": [
+    {
+      "id": 1,
+      "name": "Mixing",
+      "action": "mixes",
+      "ingredients": [
+        {
+          "name": "fruit of Metus bush",
+          "image": "fruit.png"
+        },
+        {
+          "name": "honey",
+          "image": "honey.png"
+        },
+        {
+          "name": "red herring",
+          "image": "red_herring.png"
+        }
+      ],
+      "duration": 4
+    },
+    {
+      "id": 2,
+      "name": "Slicing",
+      "action": "slices",
+      "ingredients": [
+        {
+          "name": "milk",
+          "image": "glass_of_milk.png"
+        },
+        {
+          "name": "salt",
+          "image": "sea_salt.png"
+        },
+        {
+          "name": "Peppermint",
+          "image": "peppermint_clipped.jpg"
+        }
+      ],
+      "duration": 9
+    },
+    {
+      "id": 3,
+      "name": "Grinding",
+      "action": "grinds",
+      "ingredients": [
+        {
+          "name": "magic ink",
+          "image": "magic_ink.jpg"
+        },
+        {
+          "name": "crocodile tears",
+          "image": "crocodiletears.webp"
+        }
+      ],
+      "duration": 18
+    },
+    {
+      "id": 4,
+      "name": "Stirring",
+      "action": "stirs",
+      "ingredients": [
+        {
+          "name": "twelveteen drops of dragon sweat",
+          "image": "dragon-sweat.png"
+        },
+        {
+          "name": "seastone ounce of soot",
+          "image": "soot.png"
+        }
+      ],
+      "duration": 5
+    }
+  ]
+}

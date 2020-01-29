@@ -1,0 +1,23 @@
+.col {
+  width: 30%;
+  display: inline-grid;
+  border-right: 1px solid #9a9a9a;
+  padding: 0.5rem;
+}
+
+.row .col:nth-child(1),
+.row .col:last-child {
+  border: none;
+}
+
+ol li {
+  padding-bottom: 0.5rem;
+}
+
+ol li select {
+  width: 100%;
+}
+
+form {
+  display: inline;
+}
